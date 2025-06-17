@@ -3,77 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Welfare Inc. | Coming Soon</title>
+    <title>Max Welfare Inc.</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Source Sans Pro', sans-serif;
-            background-color: #f4f7f6; /* A clean, slightly off-white background */
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+        /* Optional: Adding this for a smoother user experience when jumping between sections */
+        /*html {
+            scroll-behavior: smooth;
         }
-        .container {
-            max-width: 600px;
-            padding: 2rem;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            border-top: 5px solid #004080; /* A professional, deep blue */
-        }
-        h1 {
-            font-family: 'Lora', serif;
-            font-size: 2.5rem;
-            color: #1a1a1a;
-            margin: 0;
-        }
-        .subtitle {
-            font-size: 1.1rem;
-            color: #555;
-            font-weight: 600;
-            margin-top: 0.5rem;
-            margin-bottom: 2rem;
-        }
-        p {
-            font-size: 1rem;
-            line-height: 1.7;
-            color: #444;
-            margin-bottom: 0.5rem;
-        }
-        .footer {
-            margin-top: 2.5rem;
-            font-size: 0.9rem;
-            color: #888;
-        }
+            */
     </style>
+    <link rel="icon" type="image/svg+xml" href="utility-icon.svg">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Max Welfare Inc.</h1>
-        <div class="subtitle">Website Coming Soon</div>
-        
-        <p>
-            Founded by Richard Bruns, Max Welfare Inc. is an economic consulting firm based in the Commonwealth of Virginia.
-        </p>
-        <p>
-            I specialize in providing rigorous cost-benefit and regulatory impact analysis for challenges in public health, biosecurity, and public policy.
-        </p>
-        <p>
-            The full website is currently under development.
-        </p>
-        
-        <div class="footer">
-            © 2025 Max Welfare Inc.
+    <header>
+        <div class="container">
+            <div class="logo">Max Welfare Inc.</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#ieq">IEQ</a>
+                <a href="#cat-risk">Catastrophic Risk</a>
+                <a href="#teaching-cba">Teaching CBA</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Utility Maximization as a Service</h1>
+                <p class="subtitle">Expanding the frontiers of cost-benefit analysis, <br> and programming control systems that balance multiple objectives.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>I am <a href="https://www.linkedin.com/in/richard-bruns-9a070b25/">Richard Bruns</a>, a PhD economist with 13 years experience in cost-benefit analysis and optimization of public health, biosecurity, and disaster resilence policy and standards. I have three comparative advantages: <a href="#ieq">Indoor Environmental Quality</a>, <a href="#cat-risk">Policy Analysis of Catastrophic Risks</a>, and <a href="#teaching-cba">Teaching Cost-Benefit Analysis</a>.</p>
+            </div>
+        </section>
+
+
+        <section id="ieq">
+            <div class="container">
+                <h2>Indoor Environmental Quality</h2>
+                <p>I am the only economist who has ever served on an ASHRAE committee. I am currently on their Environmental Health Committee and the Infectious Aerosols Standards committee. My research and practice uses the techniques of welfare economics to help balance all of the competing demands of HVAC systems: occupant health and productivity, energy use, and capital cost. I am designing scales and control systems to guide system operation to maximize social welfare based on sensor input.</p>
+            </div>
+        </section>
+
+        <section id="cat-risk">
+            <div class="container">
+                <h2>Catastrophic Risk Analysis</h2>
+                <p>My cost-benefit work on policies to mitigate global catastrophic risks has included topics such as intentional adulteration of food supplies, catastrophe bonds, critical infrastructure resilience, pandemic prevention policies, vaccine stockpiles, and gene synthesis screening.</p>
+            </div>
+        </section>
+
+        <section id="teaching-cba" >
+            <div class="container">
+                <h2>Teaching Cost-Benefit Analysis</h2>
+                <p>I specialize in making myself obsolete by teaching other people how to do what I do. I have taught the fundamentals of cost-benefit analysis to many teams and technical experts. I have custom tools and templates to help people who are not computer programmers produce Monte Carlo estimations with bootstrapped confidence intervals. If you want to upskill your team and develop an in-house capability to do rapid-turnaround cost-benefit analysis of emerging policies, contact me. To get a sense of my teaching philosophy, <a href="https://forum.effectivealtruism.org/posts/wsHnorrCFNffNJQmS/cba-301-practical-advice" target="_blank" rel="noopener noreferrer">read this article</a>.</p>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p class="email">You can reach me at: <a href="mailto:richard@maxwelfare.com">richard@maxwelfare.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Max Welfare Inc. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
